@@ -171,7 +171,7 @@ h2 {
 }
 a,
 .link {
-  color: #d54339;
+  color: #eeeeee;
   text-decoration: none;
 }
 a:hover,
@@ -182,7 +182,7 @@ a:active,
 }
 a:visited,
 .link:visited {
-  color: #d54339;
+  color: #eeeeee;
 }
 body {
   background: #141414;
