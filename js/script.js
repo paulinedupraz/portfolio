@@ -53,4 +53,22 @@ $(document).ready(function () {
 
     // get a random chart
     var currentChart = Math.floor((Math.random() * charts.length));
+
+    function addChartClass() {
+        switch (currentChart) {
+        case 0:
+            $('body').addClass('yellowToPurple');
+            break;
+        case 1:
+            $('body').addClass('blueToOrange');
+            break;
+        case 2:
+            $('body').addClass('purpleToGreen');
+            break;
+        case 3:
+            $('body').addClass('greenToOrange');
+            break;
+        }
+    }
+    addChartClass();
 });
