@@ -187,6 +187,211 @@ a:visited,
   color: #d54339;
 }
 body {
+  background: #141414;
+}
+body.yellowToPurple {
+  background: #4c3f85;
+  -webkit-transition: ease-in 0.3s background;
+  -moz-transition: ease-in 0.3s background;
+  -o-transition: ease-in 0.3s background;
+  transition: ease-in 0.3s background;
+  animation: yellowToPurple 10s infinite alternate;
+  -webkit-animation: yellowToPurple 10s infinite alternate;
+  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+}
+body.blueToOrange {
+  background: #d5443a;
+  -webkit-transition: ease-in 0.3s background;
+  -moz-transition: ease-in 0.3s background;
+  -o-transition: ease-in 0.3s background;
+  transition: ease-in 0.3s background;
+  animation: blueToOrange 10s infinite alternate;
+  -webkit-animation: blueToOrange 10s infinite alternate;
+  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+}
+body.purpleToGreen {
+  background: #9a3069;
+  -webkit-transition: ease-in 0.3s background;
+  -moz-transition: ease-in 0.3s background;
+  -o-transition: ease-in 0.3s background;
+  transition: ease-in 0.3s background;
+  animation: purpleToGreen 10s infinite alternate;
+  -webkit-animation: purpleToGreen 10s infinite alternate;
+  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+}
+body.greenToOrange {
+  background: #2f7fa1;
+  -webkit-transition: ease-in 0.3s background;
+  -moz-transition: ease-in 0.3s background;
+  -o-transition: ease-in 0.3s background;
+  transition: ease-in 0.3s background;
+  animation: greenToOrange 10s infinite alternate;
+  -webkit-animation: greenToOrange 10s infinite alternate;
+  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+}
+@keyframes yellowToPurple {
+  0% {
+    background: #4c3f85;
+  }
+  20% {
+    background: #5f3b75;
+  }
+  40% {
+    background: #78336a;
+  }
+  60% {
+    background: #ae306d;
+  }
+  80% {
+    background: #cc573b;
+  }
+  100% {
+    background: #1c1639;
+  }
+}
+@-webkit-keyframes yellowToPurple {
+  0% {
+    background: #4c3f85;
+  }
+  20% {
+    background: #5f3b75;
+  }
+  40% {
+    background: #78336a;
+  }
+  60% {
+    background: #ae306d;
+  }
+  80% {
+    background: #cc573b;
+  }
+  100% {
+    background: #1c1639;
+  }
+}
+@keyframes blueToOrange {
+  0% {
+    background: #d5443a;
+  }
+  20% {
+    background: #962a69;
+  }
+  40% {
+    background: #61356c;
+  }
+  60% {
+    background: #293ca7;
+  }
+  80% {
+    background: #346aa4;
+  }
+  100% {
+    background: #346aa4;
+  }
+}
+@-webkit-keyframes blueToOrange {
+  0% {
+    background: #d5443a;
+  }
+  20% {
+    background: #962a69;
+  }
+  40% {
+    background: #61356c;
+  }
+  60% {
+    background: #293ca7;
+  }
+  80% {
+    background: #346aa4;
+  }
+  100% {
+    background: #346aa4;
+  }
+}
+@keyframes purpleToGreen {
+  0% {
+    background: #9a3069;
+  }
+  20% {
+    background: #3e3e95;
+  }
+  40% {
+    background: #384b98;
+  }
+  60% {
+    background: #207e71;
+  }
+  80% {
+    background: #5caa5e;
+  }
+  100% {
+    background: #a4c33f;
+  }
+}
+@-webkit-keyframes purpleToGreen {
+  0% {
+    background: #9a3069;
+  }
+  20% {
+    background: #3e3e95;
+  }
+  40% {
+    background: #384b98;
+  }
+  60% {
+    background: #207e71;
+  }
+  80% {
+    background: #5caa5e;
+  }
+  100% {
+    background: #a4c33f;
+  }
+}
+@keyframes greenToOrange {
+  0% {
+    background: #2f7fa1;
+  }
+  20% {
+    background: #288073;
+  }
+  40% {
+    background: #80c24f;
+  }
+  60% {
+    background: #c7d352;
+  }
+  80% {
+    background: #f59a2b;
+  }
+  100% {
+    background: #e37331;
+  }
+}
+@-webkit-keyframes greenToOrange {
+  0% {
+    background: #2f7fa1;
+  }
+  20% {
+    background: #288073;
+  }
+  40% {
+    background: #80c24f;
+  }
+  60% {
+    background: #c7d352;
+  }
+  80% {
+    background: #f59a2b;
+  }
+  100% {
+    background: #e37331;
+  }
 }
 .main {
   position: relative;
