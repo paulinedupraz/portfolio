@@ -162,6 +162,13 @@ h2 {
   text-transform: uppercase;
   line-height: 18px;
 }
+.text-xlarge {
+  color: #eee;
+  font-size: 70px;
+  letter-spacing: 1px;
+  font-family: 'QuanSlimRBook', Helvetica, Tahoma, sans-serif;
+  line-height: 60px;
+}
 a,
 .link {
   color: #d54339;
@@ -393,6 +400,7 @@ body.greenToOrange {
   padding-top: 6%;
   width: 70%;
 }
+ul.no-list {
   list-style: none;
 }
 ul.nav li {
@@ -412,7 +420,17 @@ ul.nav li {
   float: left;
   margin-top: 18px;
 }
+.summary {
+  float: left;
+  clear: left;
+  margin: 53px 0 80px 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+.summary li > span {
   display: inline-block;
+  overflow: hidden;
+  height: 60px;
 }
 }
   margin: 0 auto;

@@ -124,6 +124,15 @@ h2 {
 	line-height: 18px;
 }
 
+.text-xlarge {
+	color: #eee;
+	font-size: 70px;
+	letter-spacing: 1px;
+	font-family: @font;
+	line-height: @baseLine*6;
+}
+
+
 // links 
 
 a,
@@ -264,6 +273,7 @@ body {
 }
 
 
+ul.no-list {
 	list-style: none;
 }
 
@@ -287,7 +297,17 @@ ul.nav {
 	float: left;
 	margin-top: 18px;
 }
+.summary {
+	float: left;
+	clear: left;
+	margin: 53px 0 80px 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
 
+	li > span {
+		display: inline-block;
+		overflow: hidden;
+		height: 60px;
 	}
 }
 

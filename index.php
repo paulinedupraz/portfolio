@@ -21,11 +21,17 @@
 			<h1>Hi there, I am Pauline Dupraz</h1>
 		</div>
 
+		<ul class="summary text-xlarge no-list">
+			<li data-text="I am a freelance web designer and a front-end developer/
+			I am Swiss and currently live in Berlin/
+			I speak french, english and some german/
+			I get things done/
+			I work for projects that matter to me/
+			I make your website responsive with a creative intuitive interface/
+			I help you identify the right tools and solutions for your project/
+			I am looking forward to hearing from you
+			"></li>
 		</ul>
-
-		<ul class="nav social no-list">
-			<li>
-				<a href="http://www.linkedin.com/pub/pauline-dupraz/25/678/708" class="icon icon-linkedin"></a>
 			</li>
 			<li>
 				<a href="http://dribbble.com/paulinedupraz" class="icon icon-dribbble"></a>
