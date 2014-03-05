@@ -47,12 +47,12 @@
 .icon-behance.red {
   background-position: -40px -20px;
 }
-.icon-twitter {
-  width: 18px;
+.icon-diigo {
+  width: 13px;
   height: 17px;
   background-position: -60px 0px;
 }
-.icon-twitter.red {
+.icon-diigo.red {
   background-position: -60px -20px;
 }
 .icon-github {
@@ -70,6 +70,14 @@
 }
 .icon-email.red {
   background-position: -100px -20px;
+}
+.icon-resume {
+  width: 13px;
+  height: 17px;
+  background-position: -120px 0px;
+}
+.icon-resume.red {
+  background-position: -120px -20px;
 }
 .icon-close {
   width: 11px;
