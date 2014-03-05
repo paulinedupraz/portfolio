@@ -13,17 +13,13 @@
 <div class="main">
 
 	<div class="main-content text-center">
-		<div id="logo">
-		</div>
 
 		<h1>Pauline Dupraz</h1>
 
-		<span class="diamond space-bottom"></span>
 
 		<h2>WEB DESIGNER</h2>
 		<h2 class="space-bottom">FRONT-END DEVELOPER</h2>
 
-		<span class="diamond space-bottom"></span>
 
 		</ul>
 
