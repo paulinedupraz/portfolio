@@ -150,21 +150,12 @@ h6 {
   margin-bottom: 10px;
 }
 h1 {
-  margin: 12px 0 30px;
-  color: #a3a3a3;
+  color: white;
   font-size: 29px;
   font-weight: normal;
-  font-family: 'QuanSlimBold', Helvetica, Tahoma, sans-serif;
-  text-transform: uppercase;
-}
-h2 {
-  color: white;
-  font-size: 95px;
-  font-weight: normal;
-  font-family: 'QuanSlimRExtralight', Helvetica, Tahoma, sans-serif;
   line-height: 60px;
 }
-h3 {
+h2 {
   font-size: 26px;
   color: white;
   font-family: 'QuanSlimBold', Helvetica, Tahoma, sans-serif;
@@ -399,12 +390,27 @@ body.greenToOrange {
 }
 .main-content {
   margin: 0 auto;
+  padding-top: 6%;
+  width: 70%;
 }
   list-style: none;
 }
 ul.nav li {
   display: inline;
   margin: 0 20px;
+}
+.logo {
+  float: left;
+  margin-right: 30px;
+}
+.name {
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+.name h1 {
+  float: left;
+  margin-top: 18px;
 }
   display: inline-block;
 }

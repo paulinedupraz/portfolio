@@ -12,14 +12,14 @@
 <body>
 <div class="main">
 
-	<div class="main-content text-center">
+	<div class="main-content">
+		<div class="name">
+			<div class="logo">
+				<img src="images/logo.png" />
+			</div>
 
-		<h1>Pauline Dupraz</h1>
-
-
-		<h2>WEB DESIGNER</h2>
-		<h2 class="space-bottom">FRONT-END DEVELOPER</h2>
-
+			<h1>Hi there, I am Pauline Dupraz</h1>
+		</div>
 
 		</ul>
 
