@@ -1,0 +1,113 @@
+div.reveal * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+div.reveal {
+  margin-bottom: 80px;
+}
+div.reveal .container-infos {
+  margin-top: -20px;
+}
+div.reveal .reveal-container {
+  width: 850px;
+  height: 478px;
+  position: relative;
+  left: 50%;
+  margin-left: -425px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.reveal .reveal-container img {
+  width: 850px;
+}
+div.reveal .reveal-container.reveal-x .covered {
+  border-right: 1px #333 dashed;
+}
+div.reveal .reveal-container.reveal-y .dragger {
+  left: 50%;
+}
+div.reveal .reveal-container.reveal-y .covered {
+  border-bottom: 1px #333 dashed;
+}
+div.reveal .reveal-container .dragger {
+  cursor: pointer;
+  width: 39px;
+  height: 39px;
+  bottom: 50%;
+  background-color: #eee;
+  color: #555;
+  font-weight: bold;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-transition: 0.3s ease-in background-color;
+  -moz-transition: 0.3s ease-in background-color;
+  -o-transition: 0.3s ease-in background-color;
+  transition: 0.3s ease-in background-color;
+}
+div.reveal .reveal-container .dragger span {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+div.reveal .reveal-container .dragger span.left-arrow {
+  margin-left: 6px;
+}
+div.reveal .reveal-container .dragger.active {
+  background-color: #333;
+  color: #eee;
+  -webkit-transition: 0.3s ease-in background-color;
+  -moz-transition: 0.3s ease-in background-color;
+  -o-transition: 0.3s ease-in background-color;
+  transition: 0.3s ease-in background-color;
+}
+div.reveal .reveal-container.changing-media .dragger {
+  background-image: url('../images/loader.gif');
+  background-repeat: no-repeat;
+}
+div.reveal .reveal-container.changing-media .dragger span {
+  display: none;
+}
+div.reveal .reveal-container .navigation {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+div.reveal .reveal-container .navigation li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  text-indent: -999px;
+  overflow: hidden;
+  float: left;
+  background: #333;
+  margin-right: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: 0.2s ease-in background;
+  -moz-transition: 0.2s ease-in background;
+  -o-transition: 0.2s ease-in background;
+  transition: 0.2s ease-in background;
+}
+div.reveal .reveal-container .navigation li.active {
+  background: #ccc;
+}
+div.reveal .external-nav {
+  width: 850px;
+  margin: 20px auto;
+  font-weight: bold;
+  font-size: 12px;
+  height: 50px;
+}
+div.reveal .external-nav div {
+  float: left;
+  margin-right: 30px;
+  cursor: pointer;
+}
+div.reveal .external-nav div:hover {
+  color: #aaa;
+}

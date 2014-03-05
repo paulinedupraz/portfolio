@@ -1,0 +1,100 @@
+
+// Variables
+// ---------
+
+@spriteGrid: 20px;
+
+
+// Functions
+// ---------
+
+.sprite(@x, @y) {
+	background-position: -(@x*@spriteGrid) -(@y*@spriteGrid);
+}
+
+.sprite(@width, @height, @x, @y) {
+	width: @width;
+	height: @height;
+	background-image: url(../images/sprite.png);
+	background-position: -(@x*@spriteGrid) -(@y*@spriteGrid);
+	background-repeat: no-repeat;
+}
+
+
+// Icons & UI elements
+// -------------------
+
+
+.icon {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+}
+
+.icon-linkedin{
+	width: 17px;
+	height: 17px;
+	.sprite(0, 0);
+
+	&.red {
+		.sprite(0, 1);		
+	}
+}
+
+.icon-dribbble{
+	width: 18px;
+	height: 18px;
+	.sprite(1, 0);
+
+	&.red {
+		.sprite(1, 1);		
+	}
+}
+
+.icon-behance{
+	width: 20px;
+	height: 16px;
+	.sprite(2, 0);
+
+	&.red {
+		.sprite(2, 1);		
+	}
+}
+
+.icon-twitter{
+	width: 18px;
+	height: 17px;
+	.sprite(3, 0);
+
+	&.red {
+		.sprite(3, 1);		
+	}
+}
+
+.icon-github{
+	width: 18px;
+	height: 17px;
+	.sprite(4, 0);
+
+	&.red {
+		.sprite(4, 1);		
+	}
+}
+
+.icon-email{
+	width: 17px;
+	height: 16px;
+	.sprite(5, 0);
+
+	&.red {
+		.sprite(5, 1);		
+	}
+}
+
+.icon-close{
+	width: 11px;
+	height: 11px;
+	.sprite(0, 2);
+}
