@@ -3,8 +3,6 @@
 <head>
 <meta charset="utf-8">
 <script type="text/javascript" src="js/lib/jquery.js"></script>
-<script type="text/javascript" src="js/lib/raphael.js"></script>
-<script type="text/javascript" src="js/logo.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
@@ -27,9 +25,6 @@
 
 		<span class="diamond space-bottom"></span>
 
-		<ul class="nav no-list space-bottom">
-			<li><a href="#" class="lightbox-link" data-link="about">about</a></li>
-			<li><a href="#" class="lightbox-link" data-link="work">work</a></li>
 		</ul>
 
 		<ul class="nav social no-list">
@@ -54,12 +49,6 @@
 		</ul>
 	</div>
 </div>
-<?php require_once('about.php'); ?>
-
-<?php require_once('work.php'); ?>
-
-<div class="shadow hidden"></div>
-<div class="main-shadow"></div>
 <div class="pattern"></div>
 </body>
 </html>
