@@ -432,13 +432,22 @@ ul.nav li {
   overflow: hidden;
   height: 60px;
 }
+.social-container {
+  background: #222;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
 }
+.social-container .social {
   margin: 0 auto;
-  width: 120px;
-  height: 143px;
+  width: 70%;
+  padding-top: 8px;
 }
-.social li {
-  margin: 0 10px;
+ul.social li {
+  margin: 0;
+  margin-right: 40px;
 }
 .social a.icon {
   -webkit-transition: 0.15s ease-in all;
@@ -455,6 +464,7 @@ ul.nav li {
 .social a.icon.icon-behance:hover {
   background-position: -40px -20px;
 }
+.social a.icon.icon-diigo:hover {
   background-position: -60px -20px;
 }
 .social a.icon.icon-github:hover {
@@ -463,6 +473,8 @@ ul.nav li {
 .social a.icon.icon-email:hover {
   background-position: -100px -20px;
 }
+.social a.icon.icon-resume:hover {
+  background-position: -120px -20px;
 }
   position: relative;
 }

@@ -32,22 +32,80 @@
 			I am looking forward to hearing from you
 			"></li>
 		</ul>
+	</div>
+	<div class="social-container">
+		<ul class="nav social no-list cl">
+			<li class="tooltip-trigger">
+				<div class="tooltip">
+					<div class="target"></div>
+					<div class="tooltip-inner">
+						some of my projects
+					</div>
+				</div>
+				<a href="http://dribbble.com/paulinedupraz" class="icon icon-dribbble">
+				</a>
 			</li>
-			<li>
-				<a href="http://dribbble.com/paulinedupraz" class="icon icon-dribbble"></a>
+			<li class="tooltip-trigger">
+				<div class="tooltip">
+					<div class="target"></div>
+					<div class="tooltip-inner">
+						some of my projects
+					</div>
+				</div>
+				<a href="http://www.behance.net/paulinedupraz" class="icon icon-behance">
+				</a>
 			</li>
-			<li>
-				<a href="http://www.behance.net/paulinedupraz" class="icon icon-behance"></a>
+			<li class="tooltip-trigger">
+				<div class="tooltip">
+					<div class="target"></div>
+					<div class="tooltip-inner">
+						my daily inspirations
+					</div>
+				</div>
+				<a href="https://www.diigo.com/user/paulinedupraz" class="icon icon-diigo">
+				</a>
 			</li>
-			<li>
-				<a href="https://twitter.com/paulinedupraz" class="icon icon-twitter"></a>
+			<li class="tooltip-trigger">
+				<div class="tooltip">
+					<div class="target"></div>
+					<div class="tooltip-inner">
+						development projects
+					</div>
+				</div>
+				<a href="https://github.com/paulinedupraz" class="icon icon-github">
+				</a>
 			</li>
-			<li>
-				<a href="https://github.com/paulinedupraz" class="icon icon-github"></a>
+			<li class="tooltip-trigger">
+				<div class="tooltip">
+					<div class="target"></div>
+					<div class="tooltip-inner">
+						skills and experience
+					</div>
+				</div>
+				<a href="http://www.linkedin.com/pub/pauline-dupraz/25/678/708" class="icon icon-linkedin">
+				</a>
 			</li>
-			<li>
-				<a href="mailto:duprazpauline@gmail.com" class="icon icon-email"></a>
+			<li class="tooltip-trigger">
+				<div class="tooltip">
+					<div class="target"></div>
+					<div class="tooltip-inner">
+						download my résumé
+					</div>
+				</div>
+				<a href="doc/pauline-dupraz-resume.pdf" class="icon icon-resume">
+				</a>
 			</li>
+			<li class="tooltip-trigger">
+				<div class="tooltip">
+					<div class="target"></div>
+					<div class="tooltip-inner">
+						stay in touch
+					</div>
+				</div>
+				<a href="mailto:duprazpauline@gmail.com" class="icon icon-email">
+				</a>
+			</li>
+			
 		</ul>
 	</div>
 </div>
