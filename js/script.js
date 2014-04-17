@@ -1,5 +1,20 @@
 $(document).ready(function () {
 
+    var smallScreen = false;
+
+    $(window).resize(function() {
+        var width = $(window).width();
+        
+        if(width <= 960) {
+            $('body').addClass('smallScreen');
+            smallScreen = true;
+        } else {
+            $('body').removeClass('smallScreen');
+            smallScreen = false;
+        }
+    });
+    $(window).trigger('resize');
+
     var charts = [
             // yellow to purple
             ['#4c3f85',
@@ -74,7 +89,7 @@ $(document).ready(function () {
 
     var summarySlider = {};
         summarySlider.inner = $('.summary li');
-        summarySlider.height = 60;
+        summarySlider.height = 0;
         summarySlider.current = 0;
         summarySlider.length = 0;
         summarySlider.text = '';
@@ -100,15 +115,22 @@ $(document).ready(function () {
             }
             text.join();
 
+            if (smallScreen == true) {
+                summarySlider.height = 40;   
+            } else {
+                summarySlider.height = 60;
+            }
+
+
             summarySlider.inner.html(text);        
             summarySlider.inner.children().each(function(i) {
-                $(this).css({'padding-top': '60px'});
+                $(this).css({'padding-top': summarySlider.height});
                 $(this).delay(i*100).animate({'padding-top': 0}, 200);
             });
             
             var timer = setTimeout(function(){ 
                 summarySlider.inner.children().each(function(i) {
-                    $(this).delay(i*100).animate({'padding-top': 60}, 200, function(){
+                    $(this).delay(i*100).animate({'padding-top': summarySlider.height}, 200, function(){
                         if(i == summarySlider.inner.children().length-1) {
                             summarySlider.next();             
                         }

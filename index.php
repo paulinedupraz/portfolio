@@ -1,9 +1,26 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 <script type="text/javascript" src="js/lib/jquery.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25231765-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
@@ -18,17 +35,17 @@
 				<img src="images/logo.png" />
 			</div>
 
-			<h1>Hi there, I am Pauline Dupraz</h1>
+			<h1>Hi there, my name is Pauline Dupraz</h1>
 		</div>
 
 		<ul class="summary text-xlarge no-list">
 			<li data-text="I am a freelance web designer and a front-end developer/
-			I am Swiss and currently live in Berlin/
+			I am Swiss but I currently live in Berlin/
 			I speak french, english and some german/
 			I get things done/
-			I work for projects that matter to me/
-			I make your website responsive with a creative intuitive interface/
-			I help you identify the right tools and solutions for your project/
+			I work on projects that matter to me/
+			I will make your website responsive and give it creative intuitive interface/
+			I will help you identify the right tools and solutions for your project/
 			I am looking forward to hearing from you
 			"></li>
 		</ul>
